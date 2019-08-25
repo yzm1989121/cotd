@@ -128,7 +128,7 @@ cache: false
 	
 </head>
 <body>
-
+Version 1
 <div data-role="page" id=<?php echo $item; ?> style="background-image:url( <?php echo $_SESSION['item'][$itemno]['filename']; ?> );" class="demo-page" data-dom-cache="true" data-theme="a" data-rating=<?php echo $_SESSION['item'][$itemno]['rating']; ?>  data-prev=<?php echo $_SESSION['item'][$itemno]['prev']; ?> data-next=<?php echo $_SESSION['item'][$itemno]['next']; ?> >
 
 	<div id="help" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="b">
